@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7ff;
+    color: #202443;
+    line-height: 1.6;
+}
+
+header {
+    background: #171b3b;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+header h2 {
+    color: #9bafff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #9bafff;
+}
+
+.hero {
+    min-height: 390px;
+    background: linear-gradient(135deg, #171b3b, #454c91);
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.welcome {
+    color: #c2ccff;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin: 12px 0;
+}
+
+.hero h1 span {
+    color: #a8b8ff;
+}
+
+.hero h3 {
+    margin-bottom: 12px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    background: #a8b8ff;
+    color: #171b3b;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 55px 10%;
+    text-align: center;
+}
+
+.section h2 {
+    color: #343d83;
+    margin-bottom: 22px;
+    font-size: 28px;
+}
+
+.section > p {
+    max-width: 750px;
+    margin: 10px auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #20244315;
+    flex: 1 1 200px;
+    max-width: 320px;
+}
+
+.card h3 {
+    color: #343d83;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #343d83;
+}
+
+footer {
+    background: #171b3b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    header {
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .section {
+        padding: 40px 6%;
+    }
+}
